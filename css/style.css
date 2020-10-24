@@ -1,0 +1,164 @@
+/* body {
+    background-color: #000
+}
+
+.ripple {
+  margin: auto;
+  margin-top: 15rem;
+  background-color: #4eb7f8;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  position: relative;
+  animation: ripple 3s linear infinite;
+}
+
+.ripple::before,
+.ripple::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 50%;
+  animation: ripple 3s linear infinite 1s;
+}
+
+.ripple::after {
+  animation: ripple 3s linear infinite 2s;
+}
+
+@keyframes ripple {
+  0% {
+    box-shadow: 0 0 0 0.7rem rgba(255, 255, 255, 0.2);
+  }
+
+  100% {
+    box-shadow: 0 0 0 8rem rgba(255, 255, 255, 0);
+  }
+} */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Roboto Slab", serif;
+}
+.nav_bg {
+  background-image: url(../assets/C01_65905_Birds_winner_Greeting-the-Sun_peter-cech_CZ.jpg);
+  height: 100vh;
+  object-fit: contain;
+}
+
+@media screen and (max-width: 600px) {
+  div.reserve_spot_card {
+    margin: 1rem 1rem;
+  }
+ 
+  .nav_text {
+    margin-left: 1rem;
+  }
+  h1.transform_text {
+    font-weight: 800;
+    font-size: 2.3rem;
+  }
+
+p.nav_paragraph {
+  font-size: 1rem;
+  font-weight: 600;
+}
+div.navcard {
+  top: -35%;
+  transform: translateY(19%);
+  padding: 20px;
+  margin: 10px 20px;
+}
+}
+@media screen and (min-width: 1000px) {
+  .nav_text {
+    margin-left: 1rem;
+  }
+  h1.transform_text {
+    font-weight: 800;
+    font-size: 3.5rem;
+  }
+
+p.nav_paragraph {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+}
+.reserve_spot_card {
+  margin: 0 3rem;
+  padding: 1rem 1.5rem;
+}
+.reserve_spot_card1 {
+  margin: 0 1rem;
+  padding: 1rem 1.5rem;
+}
+.transform_text {
+  font-weight: 900;
+  font-size: 3.5rem;
+}
+.world_text {
+  font-weight: 800;
+  font-size: 2.5rem;
+}
+.customer_img {
+  margin-left: -5rem;
+}
+.nav_paragraph {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.quotes {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.reserve_spot_img {
+  height: 10rem;
+  object-fit: contain;
+}
+.navcard {
+  top: -35%;
+  transform: translateY(19%);
+  padding: 20px;
+}
+.nav_card_img , img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.btn-primary {
+  border-radius: 25px;
+}
+
+.bottom_card {
+  padding: 20px;
+  margin: 10px 15px;
+}
+
+/* carousel */
+.blog .carousel-indicators {
+	left: 0;
+	top: auto;
+    bottom: -40px;
+
+}
+
+/* The colour of the indicators */
+.blog .carousel-indicators li {
+    background: #a3a3a3;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+}
+
+.blog .carousel-indicators .active {
+background: #707070;
+}
+
+a {
+  color: grey;
+}
